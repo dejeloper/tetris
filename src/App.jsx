@@ -168,6 +168,73 @@ function App() {
           </button>
         </div>
       </section>
+      <section className="version">
+        <label>Versión: 1.0.0</label>
+      </section>
+      <section className="links">
+        <ul>
+          <li>
+            <a
+              href="https://twitter.com/dejeloper"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <img
+                  className="img_links"
+                  src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png"
+                  alt="Logo Twitter"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/dejeloper/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <img
+                  className="img_links"
+                  src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png"
+                  alt="Logo Linkedin"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/dejeloper"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <img
+                  className="img_links"
+                  src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-512.png"
+                  alt="Logo Github"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/dejeloper/tetris"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <img
+                  className="img_links"
+                  src="https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-512.png"
+                  alt="Logo React"
+                />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
   );
 }

@@ -90,3 +90,25 @@ body {
   border-radius: 5px;
   font-size: 18px;
 }
+
+.version,
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+img.img_links {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
